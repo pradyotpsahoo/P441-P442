@@ -1,4 +1,4 @@
-* C:\Users\prita\Desktop\CHUA\chuacomplete.asc
+* C:\Users\pritam\Desktop\CHUA\chuacomplete.asc
 XU1 N002 N006 N005 N008 N003 ADTL082
 XU2 N002 N007 N005 N008 N004 ADTL082
 L1 N001 0 18m Ipk=0.21 Rser=13.072 Rpar=1.6956e+006 Cpar=0
