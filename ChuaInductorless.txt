@@ -1,4 +1,4 @@
-* C:\Users\prita\Desktop\CHUA\chua_inductorless.asc
+* C:\Users\pritam\Desktop\CHUA\chua_inductorless.asc
 XU1 N003 N009 V+ V- N004 ADTL082
 XU2 N003 N010 V+ V- N005 ADTL082
 C1 N002 0 100n V=4 Irms=0 Rser=0 Lser=0 mfg="Murata" pn="GRM011R60G103KE01" type="X5R"
