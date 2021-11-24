@@ -1,0 +1,19 @@
+* C:\Users\prita\Desktop\CHUA\chuacomplete.asc
+XU1 N002 N006 N005 N008 N003 ADTL082
+XU2 N002 N007 N005 N008 N004 ADTL082
+L1 N001 0 18m Ipk=0.21 Rser=13.072 Rpar=1.6956e+006 Cpar=0
+C1 N001 0 100n V=4 Irms=0 Rser=0 Lser=0 mfg="Murata" pn="GRM011R60G103KE01" type="X5R"
+C2 N002 0 10n V=4 Irms=162m Rser=0.395426 Lser=0 mfg="KEMET" pn="C0402C103K7PAC" type="X5R"
+R1 N002 N001 1.42K tol=5 pwr=0.1
+R2 N003 N002 22.1K tol=1 pwr=0.1
+R3 N003 N006 22.1K tol=1 pwr=0.1
+R4 N004 N002 221 tol=1 pwr=0.1
+R5 N007 N004 221 tol=1 pwr=0.1
+R6 N006 0 3.32K tol=1 pwr=0.1
+R7 N007 0 2.21K tol=1 pwr=0.1
+V1 N005 0 9v
+V2 0 N008 9v
+.tran 0 10m 0s 2s startup
+.lib ADI.lib
+.backanno
+.end

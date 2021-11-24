@@ -1,0 +1,26 @@
+* C:\Users\prita\Desktop\CHUA\chua_inductorless.asc
+XU1 N003 N009 V+ V- N004 ADTL082
+XU2 N003 N010 V+ V- N005 ADTL082
+C1 N002 0 100n V=4 Irms=0 Rser=0 Lser=0 mfg="Murata" pn="GRM011R60G103KE01" type="X5R"
+C2 N003 0 10n V=4 Irms=162m Rser=0.395426 Lser=0 mfg="KEMET" pn="C0402C103K7PAC" type="X5R"
+R1 N003 N002 1.44K tol=1 pwr=0.1
+R2 N004 N003 22.1K tol=1 pwr=0.1
+R3 N004 N009 22.1K tol=1 pwr=0.1
+R4 N005 N003 221 tol=1 pwr=0.1
+R5 N010 N005 221 tol=1 pwr=0.1
+R6 N009 0 3.32K tol=1 pwr=0.1
+R7 N010 0 2.21K tol=1 pwr=0.1
+V1 V+ 0 9v
+V2 0 V- 9v
+XU3 N001 N008 V+ V- N007 ADTL082
+XU4 N011 N008 V+ V- N006 ADTL082
+R8 N001 N006 100
+R9 N006 N008 1K
+R10 N008 N007 1K
+R11 N011 0 1.8K
+C3 N007 N011 100n
+R12 N002 N001 14
+.tran 0 10m 0s 2s startup
+.lib ADI.lib
+.backanno
+.end
